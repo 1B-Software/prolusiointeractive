@@ -16,8 +16,6 @@ body {
     color: #ffffff;
     background-color: #5E5E5E;
 
-    /* margin-left: 10%; */
-
     border: 2px #3d4ad6 solid;
 
     padding: 20px;
@@ -30,6 +28,8 @@ body {
 }
 
 .info {
+    border-radius: 15px;
+    text-align: left;
     border: 1px #aaaaaa solid;
     padding-left: 20px;
     margin: 20px;
@@ -46,10 +46,12 @@ body {
 }
 
 .service img {
+    border-radius: 30px;
     border: 2px var(--purpleColor) solid;
     margin-left: 0px;
     margin-top: 0px;
     width: 300px;
+    transition: all 0.3s;
 }
 .service img:hover{
     margin-left: 0px;
@@ -58,7 +60,10 @@ body {
 }
 
 footer {
+    clear: both;
+    position: relative;
     margin-top: 20px;
+    margin-bottom: 0%;
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: var(--darkGrayColor);
