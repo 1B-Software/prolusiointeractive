@@ -54,6 +54,15 @@ body {
     color: #fff;
 }
 
+@media(max-width: 600px) {
+    /* .search {
+        font-size: 13px;
+    } */
+    body {
+        font-size: 10px;
+    }
+}
+
 .home {
 
 }
