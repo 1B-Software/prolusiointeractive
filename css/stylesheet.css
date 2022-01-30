@@ -18,6 +18,10 @@ body {
     overflow: hidden;
     margin: auto;
 }
+.heading img {
+    float: left;
+    margin-left: 20px;
+}
 
 #prolusioHeading {
     background-size: cover;
@@ -30,7 +34,7 @@ body {
 
 .search {
     margin: 0;
-    padding-left: 30px;
+    padding: 0px;
     overflow: hidden;
     background-color: var(--purpleColor);
     color: #fff;
