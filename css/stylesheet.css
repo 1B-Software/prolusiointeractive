@@ -1,30 +1,48 @@
 body {
     background-color: #ffffff;
-
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+    margin: 0;
+    padding: 0;
 }
 
 :root {
     --grayColor: #aaaaaa;
     --darkGrayColor: #5E5E5E;;
-    --purpleColor: #3d4ad6;
+    --purpleColor: #6b74dd;
 }
 
-.box {
+.heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    margin: auto;
+}
+
+#prolusioHeading {
+    background-size: cover;
+    background-position: center left;
+    background-color: var(--purpleColor);
+    background-image: url(../res/abstract.jpg);
+    color: #fff;
     text-align: center;
-    color: #ffffff;
-    background-color: #5E5E5E;
-
-    border: 2px #3d4ad6 solid;
-
-    padding: 20px;
-    margin: 20px;
-    margin-top: -0px;
 }
 
-#backImage {
-    width: 950px;
+.search {
+    margin: 0;
+    padding-left: 30px;
+    overflow: hidden;
+    background-color: var(--purpleColor);
+    color: #fff;
+}
+.search li {
+    margin: 5px;
+    list-style: none;
+    display: inline;
+}
+.search a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .info {

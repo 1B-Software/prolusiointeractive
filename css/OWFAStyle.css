@@ -1,0 +1,12 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading {
+    overflow: hidden;
+    margin: auto;
+}
+
+#headingOWFA {
+    text-align: center;
+}
