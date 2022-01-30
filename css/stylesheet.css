@@ -36,13 +36,25 @@ body {
     color: #fff;
 }
 .search li {
-    margin: 5px;
+    background: var(--purpleColor);
+    margin: -3px;
     list-style: none;
     display: inline;
 }
+.search a:hover {
+    background: #5560db;
+}
 .search a {
+    padding: 20px;
     text-decoration: none;
     color: #fff;
+}
+
+.home {
+
+}
+.home h1 {
+    text-align: center;
 }
 
 .info {
@@ -79,6 +91,7 @@ body {
 
 footer {
     clear: both;
+    color: #fff;
     position: relative;
     margin-top: 20px;
     margin-bottom: 0%;
