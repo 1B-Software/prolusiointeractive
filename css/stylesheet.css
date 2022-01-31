@@ -113,6 +113,9 @@ footer {
     body {
         font-size: 7px;
     }
+    .heading img {
+        width:30px;
+    }
     .service img {
         border-radius: 10px;
         width: 100px;
