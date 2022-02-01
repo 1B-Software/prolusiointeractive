@@ -103,6 +103,15 @@ body {
     /* text-align: center; */
 }
 
+.imageSection {
+    margin-top: 100px;
+    padding: 20px;
+    background-color: var(--darkGrayColor);
+}
+.imageSection h1 {
+    text-align: center;
+}
+
 
 .service {
     text-align: center;
