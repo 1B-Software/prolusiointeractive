@@ -94,11 +94,13 @@ body {
     color: var(--purpleColor);
     text-decoration: none;
 }
+
+
 .info2 {
-    float: left;
+    text-align: center;
 }
 .info2 h1 {
-    text-align: center;
+    /* text-align: center; */
 }
 
 
